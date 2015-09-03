@@ -11,12 +11,12 @@ define(function (require) {
 
     defaults: {
       type: 'lion',
-      age: 3,
+      dob: Date.now(),
       lifespan: _.random(10, 14),
       mass: _.random(150, 225),
       height: _.random(2, 4),
       topSpeed: 80,
-      prey: ['Antelope', 'Buffalo']
+      prey: ['antelope', 'buffalo']
     }
   });
 });

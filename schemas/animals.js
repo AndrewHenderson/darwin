@@ -5,7 +5,7 @@ module.exports = function(add) {
 
   var schema = new Schema({
     type: String,
-    age: Number,
+    dob: Number,
     lifespan: Number,
     mass: Number,
     height: Number,

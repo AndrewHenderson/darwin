@@ -33,7 +33,15 @@ define(function(require) {
       this.fetchLions();
     },
 
-    createLion: function() {
+    start: function() {
+      this.createAnimals();
+    },
+
+    createAnimals: function() {
+      this.createLions();
+    },
+
+    createLions: function() {
       var theodore = new Lion({
         name: 'Theodore'
       });

@@ -1,7 +1,7 @@
 define(function(require) {
 
   var bb = require('backbone');
-  var RootView = require('root-view');
+  var RootView = require('views/root');
 
   return bb.Router.extend({
 
