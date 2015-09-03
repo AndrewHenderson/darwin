@@ -16,7 +16,11 @@
     underscore: '../bower_components/underscore/underscore'
   };
 
-  requireConfig.shim = {};
+  requireConfig.shim = {
+    easel: {
+      exports: 'createjs'
+    }
+  };
 
   // Detect environment by checking for the presence of the "module" global:
   if (typeof module !== 'undefined' && module.exports) {
