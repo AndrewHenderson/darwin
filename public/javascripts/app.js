@@ -5,10 +5,12 @@ define(function(require) {
   var bb = require('backbone');
   var mn = require('marionette');
   var hb = require('handlebars');
-
   var Router = require('router');
 
-  // Overwrite Marionette internal template logic.
+  // Overwrite Marionette internal template logic to expect text.js to pass a string.
+  mn.TemplateCache.prototype.loadTemplate = function (str) {
+    return str;
+  };
   mn.TemplateCache.prototype.compileTemplate = function (rawTemplate) {
     return hb.default.compile(rawTemplate);
   };

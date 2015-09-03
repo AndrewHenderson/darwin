@@ -12,6 +12,7 @@
     jquery: '../bower_components/jquery/dist/jquery',
     marionette: '../bower_components/backbone.marionette/lib/backbone.marionette',
     stickit: '../bower_components/backbone.stickit/backbone.stickit',
+    text: '../bower_components/text/text',
     underscore: '../bower_components/underscore/underscore'
   };
 

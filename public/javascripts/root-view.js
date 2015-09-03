@@ -6,8 +6,8 @@ define(function(require) {
 
   return mn.LayoutView.extend({
 
-    el: '.js-bb-root',
+    el: '.bb-root',
 
-    template: '<div>Hello World!</div>'
+    template: require('text!partials/root.html')
   });
 });

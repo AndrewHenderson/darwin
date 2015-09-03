@@ -1,8 +1,6 @@
-define(function(require) {
+define(['require-config'], function(){
 
   'use strict';
 
-  require('require-config');
-  require('app');
-
+  require(['app']);
 });
