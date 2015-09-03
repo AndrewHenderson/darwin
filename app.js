@@ -30,7 +30,7 @@ app.use(function(req, res, next){
 });
 
 app.use('/', require('./routes/index'));
-app.use('/api/persons', require('./api/persons'));
+app.use('/api/lions', require('./api/lions'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

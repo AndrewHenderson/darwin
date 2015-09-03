@@ -17,9 +17,7 @@
   };
 
   requireConfig.shim = {
-    easel: {
-      exports: 'createjs'
-    }
+    easel: {exports: 'createjs'}
   };
 
   // Detect environment by checking for the presence of the "module" global:

@@ -1,14 +1,14 @@
 {
-  "name": "swashbuckler",
+  "name": "darwin",
   "version": "0.1.0",
-  "description": "A place for ideas",
+  "description": "evolution",
   "author": "Andrew Henderson <andrewmhenderson@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndrewHenderson/swashbuckler"
+    "url": "https://github.com/AndrewHenderson/darwin"
   },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -19,7 +19,8 @@
     "mongodb": "^2.0.42",
     "mongoose": "^4.1.3",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "underscore": "^1.8.3"
   },
   "private": true
 }
